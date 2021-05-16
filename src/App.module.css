@@ -1,0 +1,78 @@
+* {
+  margin: 0px;
+  font-family: cursive;
+}
+
+::-webkit-scrollbar {
+  display: none; /* Chrome Safari */
+}
+
+.app {
+  background-color: #7fc0eb;
+  padding: 30px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headline {
+  font-size: 3em;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.form {
+  display: flex;
+  align-items: center;
+}
+
+.forminput {
+  font-size: larger;
+  height: 50px;
+  width: 400px;
+  border-radius: 10px;
+  border: 0.5px rgb(59, 59, 59) solid;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.4);
+}
+
+.forminput:focus {
+  outline: none;
+}
+
+.formsubmit {
+  margin-left: 15px;
+  height: 50px;
+  border-radius: 10px;
+  border: 0.5px rgb(59, 59, 59) solid;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.4);
+  color: rgb(255, 255, 255);
+  background-color: rgb(155, 155, 155);
+}
+
+.todolist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.todoitem {
+  width: 100%;
+  background: #fff;
+  box-shadow: 3px 5px rgba(0, 0, 0, 0.15);
+  padding: 15px;
+  font-size: 30px;
+  margin: 10px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete {
+  width: 70px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(155, 155, 155);
+  color: rgb(255, 255, 255);
+}
