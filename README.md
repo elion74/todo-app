@@ -1,4 +1,7 @@
-This Todo app uses only React, javascript, html and css. There is no database so the Todos are not stored anywhere. 
+This Todo app uses only React, javascript, html and css. There is no database so the Todos are not stored anywhere. <br /><br />
+
+![todo-app.PNG](https://github.com/elion74/todo-app/blob/main/img/todo-app.PNG?raw=true) <br /><br /><br />
+
 
 ## Available Scripts
 
