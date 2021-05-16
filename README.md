@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Todo app uses only React, javascript, html and css. There is no database so the Todos are not stored anywhere. 
 
 ## Available Scripts
 
